@@ -1,0 +1,119 @@
+ul
+{
+	list-style: none;
+	letter-spacing: 15px;
+	text-align: center;
+}
+li
+{
+	display: inline;
+	letter-spacing: 10px;
+
+}
+#deu
+{
+	-webkit-transform: rotate(-35deg);
+	position:absolute;
+	top:55px;
+	border-radius: 32px;
+	font-size: 105px;
+	color: white; text-shadow: black 1.1em .1em 0.2em;
+	display: none;
+	background:transparent;
+
+	
+}
+#yillar
+{
+	margin-top:45px;
+	font-family: 'Megrim', cursive;
+	font-size: 22px;
+	display: none;
+	color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#benkonusuyom
+{
+   text-align: center;
+   
+}
+.ilkyazi
+{
+	font-size: 95px;
+	font-family: 'Ewert', cursive;
+	color:#DE5555;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	opacity: 0.3;
+	
+}
+
+
+
+
+#about
+{
+	text-align: center;
+}
+#cato
+{
+	text-align: right;
+}
+#contr
+{
+	background-color:#990033;
+	border-radius: 30px;
+	border:10px dashed #E50E56;
+	color:#017890;
+	height: 290px;
+	font-family: 'Londrina Outline', cursive;
+
+
+}
+body
+{
+	background:#990033;
+}
+#enalt
+{
+	width:1290px;
+	color:white;
+}
+#gecmis
+{
+	color:#777;
+	text-decoration: line-through;
+}
+#suan
+{
+	font-size: 35px;
+	color: white; text-shadow: black 0.1em 0.1em 0.2em;
+	border-radius:55px;
+	width: 200px;
+	border:2px dotted;
+	-webkit-transition: background-color .3s ease-in;
+   -moz-transition: background-color .3s ease-in;
+   -o-transition: background-color .3s ease-in;
+   transition: background-color .3s ease-in;
+
+}
+#suan:hover
+{
+	background-color: #44B237;
+}
+#mahcup
+{
+	text-align: center;
+	background-color: #F21347;
+	color:white;
+	font-family: 'Oregano', cursive;
+	color: white; text-shadow: black 0.1em 0.1em 0.2em;
+	border-radius: 12px;
+
+}
+#cato
+{
+	background-color: #A52341;
+	color:white;
+	letter-spacing: 15px;
+	font-family: 'Tahoma';
+}
