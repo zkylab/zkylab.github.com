@@ -1,12 +1,5 @@
 /*
- * every jQuery plugin for "typewriter" effect totally sucked
-   so I hacked something together.
-   
-   Then I got a lot of interview questions about when a good time
-   to use javascript closures is, and I kept coming back to this
-   example; so I generalized it into a proper jQuery plugin.
-
-   Feedback appreciated.
+ * Ve John Resig jQuery 'i yarattı. Kralsın be. - Çato Reyiz.
 */
 
 (function ( $ ) {
@@ -20,9 +13,7 @@
         };
         if (options) $.extend(settings, options);
 
-        /* This extra closure makes it so each element
-         * matched by the selector runs sequentially, instead
-         * of all at the same time. */
+        
         function type_next_element(index) {
             var current_element = $(settings.selector[index]);
             var final_text = current_element.text();
@@ -49,4 +40,3 @@
     }
 })(jQuery);
 
-// example: $('.someclass').typewrite();

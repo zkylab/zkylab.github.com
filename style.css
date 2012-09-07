@@ -1,3 +1,5 @@
+/* ne cssmiş be abi kolay falan derdik ağzıma sıçtı. biraz malca yazdım ama olsun işimi görüyor. */
+
 ul
 {
 	list-style: none;
@@ -17,7 +19,7 @@ li
 	top:55px;
 	border-radius: 32px;
 	font-size: 105px;
-	color: white; text-shadow: black 1.1em .1em 0.2em;
+	color: white; text-shadow: black 0.1em .1em 0.2em;
 	display: none;
 	background:transparent;
 
@@ -114,6 +116,18 @@ body
 {
 	background-color: #A52341;
 	color:white;
-	letter-spacing: 15px;
-	font-family: 'Tahoma';
+	letter-spacing: 25px;
+	font-family: 'Play', cursive;
+}
+.ekle
+{
+	display: none;
+	font-family: 'Megrim', cursive;
+	font-size: 22px;
+}
+/*sinirlendim lan*/
+.hayamk
+{
+	
+
 }
